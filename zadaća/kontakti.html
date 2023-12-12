@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Kontakti </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <table>
+                    <tr>
+                        <td>    <!-- ovo je ćelija za logo -->
+                            <div>
+                                <a href="naslovna.html"><img style="height: 110px; width: 110px;" src="slike/logo.png" alt="Logo"></a>                                
+                            </div>
+                        </td>
+
+                        <td>    <!-- ovo je ćelija za linkove -->
+                            <div>
+                                <ul>   
+                                    <li><a href="naslovna.html"> Naslovna stranica </a></li>
+                                    <li><a href="o_nama.html"> O nama </a></li>
+                                    <li><a href="usluge.html"> Usluge </a></li>
+                                    <li><a href="kontakti.html"> Kontakt </a></li>
+                                </ul>                                   
+                            </div>
+                        </td>
+
+                        <td>    <!-- ovo je ćelija za search bar -->
+                            <div>
+                                <form>
+                                    <input type="text" placeholder="Unesite traženi pojam">
+                                    <button type="submit"><img src="slike/search.svg" alt="Traži!"></button>
+                                </form>                                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+
+        <main>
+            <table>
+                <tr>
+                    <td>    <!-- ćelija za formu -->
+                        <div>
+                            <form action="hvala-vam.html" target="_blank" method="get">
+                                <label for="name_surname"> Ime i prezime: </label><br>
+                                <input type="text" name="name_surname" id="name_surname" placeholder="Gavrilo Paperclip"><br><br>
+
+                                <label for="email"> Email: </label><br>
+                                <input type="email" name="email" id="email" placeholder="gav.paperclip@gmail.com" size="30"><br><br>
+
+                                <label for="poruka"> Poruka: </label><br>
+                                <textarea name="poruka" id="poruka" cols="32" rows="10" placeholder="Vaša poruka ovdje."></textarea><br><br>
+
+        
+                                <br>
+        
+                                <button type="submit"> Pošalji poruku </button>
+                                <button type="reset"> Izbriši podatke</button>
+                            </form>
+                        </div>
+                    </td>
+
+                    <td>    <!-- ćelija za info o firmi -->
+                        <img src="slike/slika_firma.jpg" alt="Slika firme">
+
+                        <section>   <!-- kontakti -->
+                            <table> 
+                                Za naprednije korisnike ispod su navedene opcije za kontaktiranje TeleRecenzije:
+                                <tr>
+                                    <td align="right"><strong> OIB: </strong></td>
+                                    <td> 14151608885</td>
+                                </tr>
+
+                                <tr>
+                                    <td align="right"><strong> Telefon: </strong></td>
+                                    <td>099 909 990</td>
+                                </tr>
+    
+                                <tr>
+                                    <td align="right"><strong> Email: </strong></td>
+                                    <td>telerecenzija@gmail.com</td>
+                                </tr>
+    
+                                <tr>
+                                    <td align="right"><strong> Golub pismonoša: </strong></td>
+                                    <td>Oliver Golubović</td>
+                                </tr>
+                            </table> 
+                        </section>
+
+                        <section class="socials_contacts">   <!-- društvene mreže -->
+                            Za nepismene zaostale korisnike također smo dostupni i na društvenim mrežama:
+                            <ul>
+                                <li><a href="https://www.facebook.com/TeleRecenzija/" target="_blank"> <img class="icon" src="slike/facebook.svg" alt="Link to Facebook">TeleRecenzije </a></li>
+                                <li><a href="https://www.instagram.com/telerecenzija/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link to Instagram">TeleRecenzije </a></li>
+                                <li><a href="https://www.whatsapp.com/telerecenzija/" target="_blank"><img class="icon" src="slike/whatsapp.svg" alt="Link to Whatsapp">TeleRecenzije</a></li>
+                                <li><a href="https://www.twitter.com/telerecenzija/" target="_blank"><img class="icon" src="slike/twitter.svg" alt="Link to Twitter">TeleRecenzije </a></li>
+                            </ul>
+                        </section>
+                    </td>
+                </tr>
+            </table>
+        </main>
+
+        <footer>
+            <section class="socials_footer">   <!-- društvene mreže -->
+                <ul>
+                    <li><a href="https://www.facebook.com/TeleRecenzija/" target="_blank"> <img class="icon" src="slike/facebook.svg" alt="Link to Facebook"> </a></li>
+                    <li><a href="https://www.instagram.com/telerecenzija/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link to Instagram"> </a></li>
+                    <li><a href="https://www.whatsapp.com/telerecenzija/" target="_blank"><img class="icon" src="slike/whatsapp.svg" alt="Link to Whatsapp"></a></li>
+                    <li><a href="https://www.twitter.com/telerecenzija/" target="_blank"><img class="icon" src="slike/twitter.svg" alt="Link to Twitter"> </a></li>
+                </ul>
+            </section>
+        </footer>
+    </body>
+</html>
