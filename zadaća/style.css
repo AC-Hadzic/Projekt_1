@@ -22,11 +22,7 @@ header {
 header, main, footer {
     max-width: 991px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.466);
-}
-
-body footer {
-    background-color: rgba(0, 0, 0, 0.774);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 5%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.8) 95%, rgba(0,0,0,0) 100%);
 }
 
 div {
@@ -80,6 +76,7 @@ li {
     height: 320px;
     float: left;
     margin-right: 35px;
+    margin-bottom: 50px;
     border: solid 1px white;
 }
 
@@ -230,8 +227,10 @@ textarea {
 }
 
 :is(input, textarea)::placeholder {
-    font-family: 'NewFont';
-    font-size: 13px;
+    font-family: 'sans-serif';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
     border: solid;
 }
 
@@ -251,7 +250,8 @@ textarea {
     vertical-align: middle;
     height: 40px;
     width: 40px;
-    border: solid;
+    border: solid 1px white;
+    border-radius: 25px;    
 }
 
 .nav3 button img {
@@ -260,16 +260,11 @@ textarea {
 }
 
 .forma button {
-    border: solid;
+    border: solid white 1px;
     width: 200px;
     height: 40px;
     font-weight: bold;
     margin-left: 15px;
-}
-
-button:hover {
-    color: darkred;
-    background-color: rgb(172, 190, 209);
 }
 
 nav li {
@@ -278,6 +273,12 @@ nav li {
 
 .socials_contacts li img {
     margin-right: 20px;
+}
+
+.socials_contacts p {
+    margin-right: 35px;
+    font-size: medium;
+    font-style: italic;
 }
 
 :is(section, div) > p:first-of-type:not(:only-of-type)::first-letter {
@@ -300,6 +301,10 @@ nav li {
     margin-inline: auto;
     display: flex;
     border: 1px solid white;
+}
+
+.kontakt2 {
+    margin-right: 35px;
 }
 
 .kontakt h2 {
@@ -330,4 +335,26 @@ nav li {
 
 #wp:hover {    
     filter: invert(63%) sepia(94%) saturate(412%) hue-rotate(86deg) brightness(92%) contrast(87%);
+}
+
+button {
+    border: solid 1px white;
+    border-radius: 5px;
+    height: 35px;
+    padding-inline: 10px;
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button:hover {
+    color: white;
+    border-color: darkred;
+    background-color: darkred;
+}
+
+button:active {
+    background-color: orange;
+    border-color: orange;
 }
