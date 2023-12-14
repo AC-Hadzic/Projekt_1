@@ -13,16 +13,16 @@
             <nav>
                 <table>
                     <tr>
-                        <td>    <!-- ovo je ćelija za logo -->
+                        <td class="nav1">    <!-- ovo je ćelija za logo -->
                             <div>
-                                <a href="naslovna.html"><img style="height: 110px; width: 110px;" src="slike/logo.png" alt="Logo"></a>                                
+                                <a href="naslovna.html"><img style="height: 100px; width: 100px; padding-left: 20px; padding-bottom: 5px;" src="slike/logo.png" alt="Logo"></a>                                
                             </div>
                         </td>
 
-                        <td>    <!-- ovo je ćelija za linkove -->
+                        <td class="nav2">    <!-- ovo je ćelija za linkove -->
                             <div>
                                 <ul>   
-                                    <li><a href="naslovna.html"> Naslovna stranica </a></li>
+                                    <li><a href="naslovna.html"> Home </a></li>
                                     <li><a href="o_nama.html"> O nama </a></li>
                                     <li><a href="usluge.html"> Usluge </a></li>
                                     <li><a href="kontakti.html"> Kontakt </a></li>
@@ -30,7 +30,7 @@
                             </div>
                         </td>
 
-                        <td>    <!-- ovo je ćelija za search bar -->
+                        <td class="nav3">    <!-- ovo je ćelija za search bar -->
                             <div>
                                 <form>
                                     <input type="text" placeholder="Unesite traženi pojam">
@@ -44,21 +44,84 @@
         </header>
 
         <main>
-            <section>   <!-- galerija slika -->
+            <section class="galerija">   <!-- galerija slika -->
+                <h2> Usluge TeleRecenzije </h2>
+                <p>
+                    Dobar Vam dan, dragi dobri čitatelji. Ukoliko Vam kupnja novog pametnog telefona predstavlja izazov, na pravome ste mjestu, jer TeleRecenzija će Vam pomoći u odabiru novog uređaja te dati osvrt na njegove performanse, ponašanje, izdržljivost te vrijedi li para koje će te na njega baciti. Stoga, pronađite recenziju modela koji vas zanima, pročitajte, klikajte i kupite!
+                </p>
+                <p>
+                    Ukoliko imate prijedloga ili nas želite štogod pitati, slobodno nas kontaktirajte! 
+                    <br> 
+                    Sretno trošenje!                    
+                </p>
 
+                <div class="slike">   <!-- slike -->
+                        <img src="slike/ip15pm.webp" alt="iPhone 15 Pro Max" title="iPhone 15 Pro Max">
+                        <img src="slike/s23u.webp" alt="Galaxy S23 Ultra" title="Galaxy S23 Ultra">
+                        <img src="slike/pixel8p.webp" alt="Pixel 8 Pro" title="Pixel 8 Pro">
+                        <img src="slike/x13u.webp" alt="Xiaomi 13 Ultra" title="Xiaomi 13 Ultra">
+                        <hr>
+                </div>
             </section>
 
-            <section>   <!-- usluga 1 -->
-
+            <section class="usluga1">   <!-- usluga 1 -->
+                <h2> Detaljne recenzije mobilnih uređaja </h2>
+                <img src="slike/zfold5.webp" alt="Galaxy Z Fold 5" title="Galaxy Z Fold 5">
+                <p>
+                    TeleRecenzija Vam nudi uslugu detaljnih recenzija svih uređaja dostupnih na Balkanu. Nema potplaćenih recenzija ili favorita među našim urednicima, sve uređaje podjednako hvalimo ili pljujemo, ovisno o konačnim rezultatima dubinske analize. Stoga budite sigurni u transparentnost dobivenih rezultata i krajnjih ocjena.
+                </p>
+                <p>
+                    Da biste pristupili našoj bazi recenziranih uređaja, kliknite na gumb ispod!
+                    <br>
+                    <button> Recenzirani uređaji </button>    
+                </p>
+                <hr>
             </section>
 
-            <section>   <!-- usluga 2 -->
-
+            <section class="usluga2">   <!-- usluga 2 -->
+                <h2> Uspoređivanje mobilnih uređaja </h2>
+                <img src="slike/comparison.webp" alt="S23U & iP15PM" title="23U & iP15PM">
+                <p>
+                    Telerecenzija Vam također nudi i mogućnost uspoređivanja dvaju ili više mobilnih uređaja. Uz par klika brzo možete provjeriti sličnosti i razlike u karakteristikama odabranih uređaja te utvrditi koji vam više odgovara. Putem našeg alata za uspoređivanje imate pristup skoro svim specifikacijama i karakteristikama. 
+                </p>
+                <p>
+                    Za pristup alatu kliknite na gumb ispod!
+                    <button> Alat za uspoređivanje </button>
+                </p>
+                <hr>
             </section>
 
-            <section>   <!-- usluga 3 -->
-
+            <section class="usluga3">   <!-- usluga 3 -->
+                <h2> Brzo do kupnje i/ili ugovora </h2>
+                <img src="slike/tcom.png" alt="Tcom">
+                <p>
+                    Telerecenzija će Vam pomoći i u procesu kupnje uređaja, ukoliko ga smatrate dovoljno vrijedim za taj mukotrpan i srceparajući trenutak. Radi Vaše sigurnosti, tokom procesa kupnje uređaja čija vrijednost premašuje 1.000,00 EUR, Telerecenzija će vas preventativno pitati jeste li sigurni što uopće radite.
+                </p>
+                <p>
+                    Ukoliko si dodatno hoćete zakomplicirati život, tu je i naše partnerstvo s teleoperaterom T-Com. S upisom koda MOJŽIVOTJETRAGEDIJA2 možete dobiti 2% popusta na cijeni uređaja.
+                </p>
+                <p>
+                    Kliknite na link ispod ukoliko ste spremni na financijsko pročišćivanje bankovnog računa.
+                    <button> Kupnja </button>
+                </p>
             </section>
         </main>
+
+        <footer>
+            <hr>  
+           <section class="socials_footer">   <!-- društvene mreže -->
+               <span>Pretražite nas na društvenim mrežama!</span>
+               <div>
+                   <ul>
+                       <li><a id="fb" href="https://www.facebook.com/TeleRecenzija/" target="_blank"> <img class="icon" src="slike/facebook.svg" alt="Link to Facebook"> </a></li>
+                       <li><a  id="in" href="https://www.instagram.com/telerecenzija/" target="_blank"><img class="icon" src="slike/instagram.svg" alt="Link to Instagram"> </a></li>
+                       <li><a id="wp" href="https://www.whatsapp.com/telerecenzija/" target="_blank"><img class="icon" src="slike/whatsapp.svg" alt="Link to Whatsapp"></a></li>
+                       <li><a id="tw" href="https://www.twitter.com/telerecenzija/" target="_blank"><img class="icon" src="slike/twitter.svg" alt="Link to Twitter"> </a></li>
+                   </ul>    
+                                   
+               </div>
+               <span>© 2023 - 2023 Telerecenzija | No rights reserved.</span>                    
+           </section>
+       </footer>
     </body>
 </html>
